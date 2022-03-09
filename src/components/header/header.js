@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/img/icono.png';
+import usa from '../../assets/img/estados-unidos.png'
 import repDom from '../../assets/img/repDom.png';
 import francia from '../../assets/img/francia.png';
 import {Link} from 'react-router-dom';
@@ -27,8 +28,9 @@ const hearder = () => {
         <Button href="#">Donar</Button> 
         
         <NavDropdown title={<FontAwesomeIcon icon={faGlobe} />} id="basic-nav-dropdown">
-          <NavDropdown.Item href='#'><img width={'20px'} src={repDom} alt='rep. dom.' />Español </NavDropdown.Item>
-          <NavDropdown.Item href='#'><img width={'20px'} src={francia} alt='francois' />Frances </NavDropdown.Item>
+          <NavDropdown.Item href='#'><img width={'20px'} src={repDom} alt='rep. dom.' /> Español </NavDropdown.Item>
+          <NavDropdown.Item href='#'><img width={'20px'} src={francia} alt='francois' /> Francois </NavDropdown.Item>
+          <NavDropdown.Item href="#"><img width={'20px'} src={usa} alt='USA' /> English</NavDropdown.Item>
         </NavDropdown>
         
         

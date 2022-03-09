@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import icon from '../../assets/img/icono.png'
 import {
   FaFacebook,
   FaInstagram,
@@ -33,42 +34,39 @@ function Footer() {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Join our exclusive membership to receive the latest news and trends
+          Unete a nuestra comunidad y recibe nuestras últimas noticias
         </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
+        <FooterSubText>Puedes cancelar tu subscripción cuando quieras.</FooterSubText>
         <Form>
           <FormInput name='email' type='email' placeholder='Your Email' />
-          <Button fontBig>Subscribe</Button>
+          <Button fontBig>Subscribirme</Button>
         </Form>
       </FooterSubscription>
       <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>
-            <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to='/sign-up'>How it works</FooterLink>
-            <FooterLink to='/'>Testimonials</FooterLink>
-            <FooterLink to='/'>Careers</FooterLink>
-            <FooterLink to='/'>Investors</FooterLink>
-            <FooterLink to='/'>Terms of Service</FooterLink>
+            <FooterLinkTitle>Nosotros</FooterLinkTitle>
+            <FooterLink to='/nosotros'>¿Quienes somos?</FooterLink>
+            <FooterLink to='/nosotros'>Testimonios</FooterLink>
+            <FooterLink to='/'>Transparencia</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
-            <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to='/'>Contact</FooterLink>
-            <FooterLink to='/'>Support</FooterLink>
-            <FooterLink to='/'>Destinations</FooterLink>
-            <FooterLink to='/'>Sponsorships</FooterLink>
+            <FooterLinkTitle>Contactanos</FooterLinkTitle>
+            <FooterLink to='/'>Contactos</FooterLink>
+            <FooterLink to='/'>Soporte</FooterLink>
+            <FooterLink to='/'>Aportar</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinkItems>
-            <FooterLinkTitle>Videos</FooterLinkTitle>
-            <FooterLink to='/'>Submit Video</FooterLink>
-            <FooterLink to='/'>Ambassadors</FooterLink>
-            <FooterLink to='/'>Agency</FooterLink>
-            <FooterLink to='/'>Influencer</FooterLink>
+            <FooterLinkTitle>Galería</FooterLinkTitle>
+            <FooterLink to='/'>Fotos</FooterLink>
+            <FooterLink to='/'>Videos</FooterLink>
+            <FooterLink to='/'>Historias</FooterLink>
+            
           </FooterLinkItems>
           <FooterLinkItems>
-            <FooterLinkTitle>Social Media</FooterLinkTitle>
+            <FooterLinkTitle>Redes sociales</FooterLinkTitle>
             <FooterLink to='/'>Instagram</FooterLink>
             <FooterLink to='/'>Facebook</FooterLink>
             <FooterLink to='/'>Youtube</FooterLink>
@@ -79,10 +77,10 @@ function Footer() {
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to='/'>
-            <SocialIcon />
-            ULTRA
+            <img src={icon} alt="Gaptos" width={"50px"} />
+            GAPTOS
           </SocialLogo>
-          <WebsiteRights>ULTRA © 2020</WebsiteRights>
+          <WebsiteRights>Gaptos © 2022</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />
