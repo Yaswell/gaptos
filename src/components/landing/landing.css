@@ -1,0 +1,41 @@
+.landing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 40px;
+  padding: 20px;
+}
+
+.landing .landingText {
+  width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.landing .landingText ac
+h3 {
+  font-weight: 400;
+}
+
+.landing .landingText h1 {
+  font-size: 60px;
+  font-weight: 900;
+  font-style: bold;
+}
+
+.landing .landingText p {
+  font-family: 'Open Sans Light';
+}
+
+.landing .landingImg img {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  justify-items: end;
+  justify-self: flex-end;
+}
+/*# sourceMappingURL=landing.css.map */

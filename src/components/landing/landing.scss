@@ -1,0 +1,35 @@
+
+.landing{
+    display: flex;
+    margin-left:40px;
+    padding: 20px;
+    .landingText{
+        width: 50%;
+        align-self: center;
+        ac
+        h3{
+            font-weight: 400;
+        }
+        h1{
+            font-size: 60px;
+            font-weight: 900;
+            font-style: bold;
+        }
+        p{
+            font-family:'Open Sans Light';
+        }
+    }
+
+    .landingImg{
+       
+        img{
+            align-self: end;
+            justify-content: end;
+            justify-items: end;
+            justify-self: flex-end;
+        }
+        
+    }
+   
+}
+

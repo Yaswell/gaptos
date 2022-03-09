@@ -1,0 +1,27 @@
+.inHonor{
+    height: 500px ;
+    
+    background-color: #101522;
+    display: flex;
+    .imagen{
+        margin: 80px;
+        align-self: center;
+
+    }
+    .text{
+        width: 50%;
+        color: white;    
+        align-self: center;
+        h1{
+            font-weight: 200;
+            font-size: 50px;
+        }
+        h3{
+            font-size: 50px;
+        }
+        p{
+
+        }
+    }
+
+}

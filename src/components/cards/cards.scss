@@ -1,0 +1,47 @@
+.cardDiv{
+    
+    height: fit-content + 30px;
+    font-family: 'Gill Sans';
+    display: inline-block;
+
+    
+    justify-items: center;
+    justify-self: center;
+    justify-content: center;
+
+    align-items: center;
+    align-content: center;
+    align-self: center;
+  
+   .card{
+       
+       padding: 20px;
+       margin: 30px;
+       width: 280px;
+       height: 550px;
+       display: inline-block;
+       border-radius: 20px;
+       box-shadow:10px 10px 10px #7BD5F6 ; 
+       text-align: center;
+       h3{
+           margin-top: 5px;
+           color: #0D6EFD;
+           font-weight: 600;
+       }
+       img{
+           width: 100%;
+       }
+       p{
+           font-size: 18px;
+       }
+      
+       
+       
+   }
+   #vision{
+    height: 450px;
+    }
+    #valores{
+        height: 400px;
+    }
+}

@@ -1,0 +1,36 @@
+
+.Info{
+    display: flex;
+    margin-left:40px;
+    padding: 20px;
+    .InfoText{
+        width: 50%;
+        align-self: center;
+        ac
+        h3{
+            font-weight: 400;
+        }
+        h1{
+            font-size: 60px;
+            font-weight: 900;
+            font-style: bold;
+        }
+        p{
+            font-family:'Open Sans Light';
+        }
+    }
+
+    .InfoImg{
+       
+        img{
+            align-self: end;
+            justify-content: end;
+            justify-items: end;
+            justify-self: flex-end;
+            max-height: 600px;
+        }
+        
+    }
+   
+}
+

@@ -1,0 +1,26 @@
+#icono {
+  width: 200px;
+  height: 30px;
+  background-color: red;
+}
+
+nav {
+  background-color: blue;
+}
+
+.transparencia {
+  font-size: 80px;
+  background-image: url("../img/tranparencia.jpg");
+  height: 100vh;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  font-size: 50px;
+}
+
+.color {
+  background-color: #101522;
+  color: white;
+  min-height: 300px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,54 @@
+.cardDiv {
+  height: fit-content30px;
+  font-family: 'Gill Sans';
+  display: inline-block;
+  justify-items: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.cardDiv .card {
+  padding: 20px;
+  margin: 30px;
+  width: 280px;
+  height: 550px;
+  display: inline-block;
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 10px 10px #7BD5F6;
+          box-shadow: 10px 10px 10px #7BD5F6;
+  text-align: center;
+}
+
+.cardDiv .card h3 {
+  margin-top: 5px;
+  color: #0D6EFD;
+  font-weight: 600;
+}
+
+.cardDiv .card img {
+  width: 100%;
+}
+
+.cardDiv .card p {
+  font-size: 18px;
+}
+
+.cardDiv #vision {
+  height: 450px;
+}
+
+.cardDiv #valores {
+  height: 400px;
+}
+/*# sourceMappingURL=cards.css.map */

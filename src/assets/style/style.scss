@@ -1,0 +1,15 @@
+@import '../../components/header/header';
+$secundaryColor: #101522;
+.transparencia{
+        font-size: 80px;
+        background-image: url('../img/tranparencia.jpg');
+        height: 100vh;
+        min-height: fit-content;
+        font-size: 50px;
+    }
+
+.color{
+    background-color: $secundaryColor;
+    color: white;
+    min-height: 300px;
+}
