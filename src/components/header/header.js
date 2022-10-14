@@ -25,7 +25,7 @@ const hearder = () => {
           <NavDropdown.Divider />
           <NavDropdown.Item href="/transparencia">Transparencia</NavDropdown.Item>
         </NavDropdown>
-        <Button href="#">Donar</Button> 
+        <Button href="/donaciones">Donar</Button> 
         
         <NavDropdown title={<FontAwesomeIcon icon={faGlobe} />} id="basic-nav-dropdown">
           <NavDropdown.Item href='#'><img width={'20px'} src={repDom} alt='rep. dom.' /> Español </NavDropdown.Item>

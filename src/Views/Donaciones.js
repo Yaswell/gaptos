@@ -4,6 +4,7 @@ import Header from '../components/header/header'
 import imagen from '../assets/img/img.jpeg'
 import Footer from '../components/Footer/Footer'
 import {Button, Card, CardGroup, Form, Row, Col} from 'react-bootstrap'
+import PaymentForm from '../components/PaymentForm/PaymentForm'
 const Donaciones = () => {
   return (
     <div>
@@ -14,8 +15,11 @@ const Donaciones = () => {
         <div className='donacion'> 
         <h1>¿Cómo aportar tu gota?</h1>
         <h3>Selecciona el proyecto con el que deseas aportar </h3>
+
+        <PaymentForm />
+
         <Form>
-  
+
           <div key={`default-radio`} className="mb-3">
               <Form.Check 
                 type={'radio'}

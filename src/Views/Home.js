@@ -16,6 +16,7 @@ const Home = () => {
          Parragraf={'Porque de tal manera amó Dios al mundo que ha dado a su hijo unijenito para que todo el que en Él crea no se pierda más tenga vida eterna'}
          Boton={"Aportar mi gota"}
          Img={imagen}
+         Address="/donaciones"
          />
         <InHonor />
         <Cards />
