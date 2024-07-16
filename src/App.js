@@ -1,3 +1,4 @@
+import React from 'react';
 import Home from "./Views/Home";
 import Nosotros from "./Views/Nosotros"
 import Transparencia from "./Views/Transparencia";

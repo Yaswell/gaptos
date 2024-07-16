@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from '../components/header/header'
-import Landing from '../components/landing/landing'
+import Header from '../components/header/header.js'
+import Landing from '../components/landing/landing.js'
 import Footer from '../components/Footer/Footer.js'
-import InHonor from '../components/InHonor/InHonor'
-import Cards from '../components/cards/cards'
-import Imagenes from '../components/carousel/Imagenes'
+import InHonor from '../components/InHonor/InHonor.js'
+import Cards from '../components/cards/cards.js'
+import Imagenes from '../components/carousel/Imagenes.js'
 import imagen from '../assets/img/imgExample.png'
 const Home = () => {
   return (

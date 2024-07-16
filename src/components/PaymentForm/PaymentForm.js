@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './PaymentForm.css'
-import 'react-credit-cards/es/styles-compiled.css'
-import Cards from 'react-credit-cards'
+//import 'react-credit-cards/es/styles-compiled.css'
+//import Cards from 'react-credit-cards'
 
 const PaymentForm = () => {
     const [state, setState] = useState({
@@ -38,13 +38,13 @@ const PaymentForm = () => {
     <div className='layout'>
    <div className='card'>
        <div className='card-body'>
-       <Cards
+       {/* <Cards
         number={state.number}
         name={state.name}
         expiry={state.expire}
         cvc={state.cvc}
         focused={state.focus}
-        />
+        /> */}
        </div>
         <form>
             <div className='form-group'>
