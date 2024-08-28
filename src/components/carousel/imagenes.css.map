@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAEI,SAFK,CAEL,GAAG,CAAA;EACC,MAAM,EAAE,KAAK;CAChB",
-    "sources": [
-        "imagenes.scss"
-    ],
-    "names": [],
-    "file": "imagenes.css"
-}
+{"version":3,"sources":["imagenes.scss","imagenes.css"],"names":[],"mappings":"AAEI;EACI,aAAA;ACDR","file":"imagenes.css"}

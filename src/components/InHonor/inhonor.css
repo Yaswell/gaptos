@@ -1,32 +1,21 @@
 .inHonor {
   height: 500px;
   background-color: #101522;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .inHonor .imagen {
   margin: 80px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
-
 .inHonor .text {
   width: 50%;
   color: white;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
-
 .inHonor .text h1 {
   font-weight: 200;
   font-size: 50px;
 }
-
 .inHonor .text h3 {
   font-size: 50px;
-}
-/*# sourceMappingURL=inhonor.css.map */
+}/*# sourceMappingURL=inhonor.css.map */

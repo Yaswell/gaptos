@@ -1,42 +1,27 @@
 .Info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 40px;
   padding: 20px;
 }
-
 .Info .InfoText {
   width: 50%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
-
-.Info .InfoText ac
-h3 {
+.Info .InfoText ac h3 {
   font-weight: 400;
 }
-
 .Info .InfoText h1 {
   font-size: 60px;
   font-weight: 900;
   font-style: bold;
 }
-
 .Info .InfoText p {
-  font-family: 'Open Sans Light';
+  font-family: "Open Sans Light";
 }
-
 .Info .InfoImg img {
-  -ms-flex-item-align: end;
-      -ms-grid-row-align: end;
-      align-self: end;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  align-self: end;
+  justify-content: end;
   justify-items: end;
   justify-self: flex-end;
   max-height: 600px;
-}
-/*# sourceMappingURL=Info.css.map */
+}/*# sourceMappingURL=Info.css.map */

@@ -1,33 +1,19 @@
 .layout {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
 }
-
 .layout .card {
   display: inline-block;
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 10px #dadada;
-          box-shadow: 0 0 10px #dadada;
+  box-shadow: 0 0 10px #dadada;
 }
-
 .layout .card form {
-  display: -ms-grid;
   display: grid;
 }
-
 .layout .card form .form-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 5px;
   margin-right: 5px;
-}
-/*# sourceMappingURL=PaymentForm.css.map */
+}/*# sourceMappingURL=PaymentForm.css.map */
