@@ -19,7 +19,7 @@ const hearder = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="/">Inicio</Nav.Link>
-            <Nav.Link href="/donaciones.html">Contribuye</Nav.Link>
+            <Nav.Link href="/donaciones">Contribuye</Nav.Link>
             <NavDropdown title="Nosotros" id="basic-nav-dropdown">
               <NavDropdown.Item href="/nosotros">
                 ¿Quienes sómos?
