@@ -29,7 +29,7 @@ const hearder = () => {
                 Proyectos finalizados
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/transparencia">
+              <NavDropdown.Item href="gaptos/#/transparencia">
                 Transparencia
               </NavDropdown.Item>
             </NavDropdown>
