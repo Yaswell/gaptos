@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gaptos/static/css/main.acee5ed3.css",
-    "main.js": "/gaptos/static/js/main.3823bd99.js",
+    "main.js": "/gaptos/static/js/main.b88a1a29.js",
     "static/js/488.53ccc56d.chunk.js": "/gaptos/static/js/488.53ccc56d.chunk.js",
     "static/media/ayuda2.jpeg": "/gaptos/static/media/ayuda2.c3b27eebce2a7cf403e3.jpeg",
     "static/media/ayuda1.jpeg": "/gaptos/static/media/ayuda1.74af63d8e1fa1cc27f11.jpeg",
@@ -18,11 +18,11 @@
     "static/media/repDom.png": "/gaptos/static/media/repDom.52861c0d96be669afdbd.png",
     "index.html": "/gaptos/index.html",
     "main.acee5ed3.css.map": "/gaptos/static/css/main.acee5ed3.css.map",
-    "main.3823bd99.js.map": "/gaptos/static/js/main.3823bd99.js.map",
+    "main.b88a1a29.js.map": "/gaptos/static/js/main.b88a1a29.js.map",
     "488.53ccc56d.chunk.js.map": "/gaptos/static/js/488.53ccc56d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.acee5ed3.css",
-    "static/js/main.3823bd99.js"
+    "static/js/main.b88a1a29.js"
   ]
 }
