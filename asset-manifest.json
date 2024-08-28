@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/gaptos/static/css/main.acee5ed3.css",
+    "main.js": "/gaptos/static/js/main.807236c5.js",
+    "static/js/488.53ccc56d.chunk.js": "/gaptos/static/js/488.53ccc56d.chunk.js",
+    "static/media/ayuda2.jpeg": "/gaptos/static/media/ayuda2.c3b27eebce2a7cf403e3.jpeg",
+    "static/media/ayuda1.jpeg": "/gaptos/static/media/ayuda1.74af63d8e1fa1cc27f11.jpeg",
+    "static/media/tranparencia.jpg": "/gaptos/static/media/tranparencia.6ef8f176e5c5c8813625.jpg",
+    "static/media/ayuda3.jpeg": "/gaptos/static/media/ayuda3.e0a637af668986418d8a.jpeg",
+    "static/media/img.jpeg": "/gaptos/static/media/img.d38df3913d3da3b90d12.jpeg",
+    "static/media/fundadores.jpeg": "/gaptos/static/media/fundadores.7738986c6fdb19575d88.jpeg",
+    "static/media/imgExample.png": "/gaptos/static/media/imgExample.0a7d9ddc4a176f5e72d1.png",
+    "static/media/coraje.png": "/gaptos/static/media/coraje.02f1f0c86983ba7f67e4.png",
+    "static/media/objetivo.png": "/gaptos/static/media/objetivo.73a6d67148bb8adba87b.png",
+    "static/media/valores.png": "/gaptos/static/media/valores.a02efa859a2b93569a10.png",
+    "static/media/estados-unidos.png": "/gaptos/static/media/estados-unidos.bf988a50ece2abc9bb37.png",
+    "static/media/icono.png": "/gaptos/static/media/icono.09619e0a3d77615fc3d6.png",
+    "static/media/repDom.png": "/gaptos/static/media/repDom.52861c0d96be669afdbd.png",
+    "index.html": "/gaptos/index.html",
+    "main.acee5ed3.css.map": "/gaptos/static/css/main.acee5ed3.css.map",
+    "main.807236c5.js.map": "/gaptos/static/js/main.807236c5.js.map",
+    "488.53ccc56d.chunk.js.map": "/gaptos/static/js/488.53ccc56d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acee5ed3.css",
+    "static/js/main.807236c5.js"
+  ]
+}
